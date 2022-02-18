@@ -1,0 +1,71 @@
+.hero--presentacion {
+  position: absolute;
+  left: 15%;
+  animation: slidein 2s;
+}
+
+@keyframes slidein {
+  from {
+    left: 0%;
+  }
+
+  to {
+    left: 15%;
+  }
+}
+
+.hero--carousel {
+  overflow: hidden;
+}
+
+.hero--carousel > figure {
+  position: relative;
+  width: 500%;
+  height: 100%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+
+.hero--carousel > figure > video {
+  width: 30rem;
+  height: 100%;
+  object-fit: cover;
+  float: left;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  10% {
+    left: 0 ;
+  }
+  20% {
+    left: -100%;
+  }
+  30% {
+    left: -100%;
+  }
+  40% {
+    left: -200%;
+  }
+  50% {
+    left: -200%;
+  }
+  60% {
+    left: -300%;
+  }
+  70% {
+    left: -300%;
+  }
+  80% {
+    left: -400%;
+  }
+  90% {
+    left: -400%;
+  }
+  100% {
+    left: 0%;
+  }
+}
