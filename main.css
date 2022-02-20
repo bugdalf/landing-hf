@@ -75,6 +75,8 @@ header {
 }
 
 .navbar-items--enlaces li a{
+  font-weight: 600;
+  font-size: 20px;
   text-decoration: none;
   color: tomato;
 }
@@ -96,7 +98,12 @@ header {
   width: 45ch;
 }
 
+.hero--presentacion > h1 {
+  font-size: 36px;
+}
+
 .hero--presentacion > p {
+  font-size: 20px;
   margin: 1rem 0 2rem 0;
 }
 
@@ -129,7 +136,7 @@ main {
   padding: 0 10%;
 }
 
-.programas > h2 {
+.programas > h1 {
   color: tomato;
   padding: 3rem 0;
 }
@@ -203,4 +210,57 @@ main {
   /* position: absolute; */
   height: auto;
   overflow: visible;
+}
+
+footer {
+  margin-top: 4rem;
+}
+
+.contacto {
+  padding: 0 10%;
+  background-color: rgb(255, 241, 239);
+}
+
+.contacto > h1 {
+  color: tomato;
+  padding: 3rem 0 1rem 0; 
+}
+
+.contacto--links {
+  padding-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacto--link > h3{
+  margin: 1rem 0;
+  color: brown;
+}
+
+.contacto--link > ul {
+  margin-left: 2rem;
+  /* list-style: none; */
+}
+
+.contacto--link > ul > li {
+  padding: .2rem 0;
+}
+
+.contacto--redes {
+  list-style: none;
+  gap: .5rem;
+}
+
+.contacto--redes > li > a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  gap: .5rem;
+}
+
+.copyright {
+  padding: .5rem;
+  text-align: center;
+  font-size: 9px;
 }
