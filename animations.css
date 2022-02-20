@@ -1,21 +1,11 @@
 .hero--presentacion {
-  position: absolute;
-  left: 15%;
   animation: slidein 2s;
 }
 
 @keyframes slidein {
   from {
-    left: 0%;
+    margin-left: -7rem;
   }
-
-  to {
-    left: 15%;
-  }
-}
-
-.hero--carousel {
-  overflow: hidden;
 }
 
 .hero--carousel > figure {
@@ -28,7 +18,7 @@
 }
 
 .hero--carousel > figure > video {
-  width: 30rem;
+  width: calc(100%/5);
   height: 100%;
   object-fit: cover;
   float: left;
