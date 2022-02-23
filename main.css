@@ -121,14 +121,14 @@ header {
 .hero--presentacion {
   width: 50ch;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   height: fit-content;
   flex-grow: 1;
 }
 
 .hero--presentacion > h1 {
   font-size: 2.2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .hero--presentacion > p {
@@ -137,7 +137,9 @@ header {
 }
 
 .hero--cta {
+  border: 1px dashed white;
   width: 100%;
+  max-width: 25rem;
   background-color: tomato;
   font-weight: 500;
   padding: .5rem;
