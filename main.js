@@ -22,7 +22,6 @@ carouselContainer[0].style.height = carouselContainerWidth + 'px'
 window.addEventListener('resize', () => {
   carouselContainerWidth = carouselContainer[0].offsetWidth
   carouselContainer[0].style.height = carouselContainerWidth + 'px'
-  console.log(typeof carouselContainerWidth)
 })
 
 
