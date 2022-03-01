@@ -17,9 +17,11 @@ function expandirModulo () {
   if(estadoLista === 'false') {
     listaModulo[indice].style.display = "block"
     listaModulo[indice].setAttribute("data-estado",'true')
-    this.style.color = "tomato" 
+    this.style.color = "tomato"
+    this.style.fontWeight = "bold"  
   } else if(estadoLista === 'true') {
-    this.style.color = "black" 
+    this.style.color = "black"
+    this.style.fontWeight = "normal"   
     listaModulo[indice].style.display = "none"
     listaModulo[indice].setAttribute("data-estado",'false') 
   }
