@@ -104,6 +104,7 @@ header {
 }
 
 .hero {
+  width: 100%;
   padding: 4rem 12% 4rem 12%;
   display: flex;
   column-gap: 1rem;
@@ -114,6 +115,7 @@ header {
 
 .hero--presentacion {
   width: 40ch;
+  height: 100%;
   margin-top: 1rem;
   margin-bottom: 2rem;
   height: fit-content;
@@ -129,6 +131,8 @@ header {
   border: 1px dashed white;
   width: 100%;
   max-width: 25rem;
+  height: 3rem;
+  font-size: 1.1rem;
   background-color: tomato;
   font-weight: 500;
   padding: .5rem;
@@ -213,7 +217,7 @@ main > h1 {
   flex-grow: 1;
 }
 
-.new-programa--modulo > button {
+.modulo-botones {
   height: 3rem;
   width: 100%;
   text-align: left;
@@ -361,7 +365,28 @@ footer {
 }
 
 .copyright {
-  padding: .5rem;
+  background-color: #fcdede;
+  padding: .3rem;
   text-align: center;
   font-size: 9px;
+}
+
+.boton-whatsapp {
+  position:fixed;
+	width: 4rem;
+	height: 4rem;
+	bottom: 2rem;
+	right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+	background-color:#25d366;
+	border-radius:50px;
+	box-shadow: 2px 2px 3px rgb(26, 26, 26);
+  z-index: 3;
+}
+
+.boton-whatsapp > img {
+  width: 2rem;
+  height: 2rem;
 }

@@ -16,8 +16,10 @@ function expandirModulo () {
   let estadoLista = listaModulo[indice].getAttribute("data-estado")
   if(estadoLista === 'false') {
     listaModulo[indice].style.display = "block"
-    listaModulo[indice].setAttribute("data-estado",'true') 
+    listaModulo[indice].setAttribute("data-estado",'true')
+    this.style.color = "tomato" 
   } else if(estadoLista === 'true') {
+    this.style.color = "black" 
     listaModulo[indice].style.display = "none"
     listaModulo[indice].setAttribute("data-estado",'false') 
   }
